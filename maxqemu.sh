@@ -17,7 +17,7 @@ install_packages() {
 # Function to set up directories
 setup_directories() {
     echo "Setting up directories..."
-    cd $HOME
+   # cd $HOME
     mkdir -p MaxQemu/alpine
     cd MaxQemu/alpine
 }
