@@ -11,12 +11,12 @@ This guide, created by [Mahendra Mali (Max)](https://github.com/mahendraplus), w
 
    - **With `curl`**:
      ```bash
-     curl -fsSL https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh | sh
+     sh -c "$(curl -fsSL https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh)"
      ```
 
    - **With `wget`**:
      ```bash
-     wget -O - https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh | sh
+     sh -c "$(wget -qO- https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh)"
      ```
 
 2. **Follow On-Screen Instructions**
