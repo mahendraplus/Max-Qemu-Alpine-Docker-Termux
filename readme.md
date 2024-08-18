@@ -3,6 +3,26 @@
 
 This guide, created by [Mahendra Mali (Max)](https://github.com/mahendraplus), will walk you through setting up Alpine Linux on your Termux environment using QEMU. This setup is ideal for those who wish to run a lightweight virtual machine directly on their Android device through Termux.
 
+## Quick Start
+
+1. **Download and Run the Script**
+
+   Use either `curl` or `wget` to download and run the setup script directly:
+
+   - **With `curl`**:
+     ```bash
+     curl -fsSL https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh | bash
+     ```
+
+   - **With `wget`**:
+     ```bash
+     wget -O - https://raw.githubusercontent.com/mahendraplus/MaxQemu/Max/maxqemu.sh | bash
+     ```
+
+2. **Follow On-Screen Instructions**
+
+   The script will guide you through the setup process.
+
 ## Table of Contents
 
 - Prerequisites
